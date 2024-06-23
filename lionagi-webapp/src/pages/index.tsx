@@ -178,7 +178,7 @@ export default function Home() {
                 <Link href="/contact" passHref>
                   <Button size="lg" className="bg-[#D4AF37] hover:bg-[#c9b436] text-[#111111] text-lg px-8 py-4 rounded-full shadow-lg transition-all duration-300 hover:shadow-[#D4AF37]/50 hover:scale-105">
                     Get Started Today
-                    <ArrowRightIcon className="ml-2 h-5 w-5" />
+                    <ArrowRightIcon />
                   </Button>
                 </Link>
               </div>

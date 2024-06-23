@@ -30,7 +30,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <Button variant="solid" className="bg-[#D4AF37] text-[#111111] hover:bg-[#c9b436] transition-colors">
+          <Button className="bg-[#D4AF37] text-[#111111] hover:bg-[#c9b436] transition-colors">
             Start Free Trial
           </Button>
           <Link
@@ -38,7 +38,7 @@ export function Hero() {
             className="inline-flex items-center justify-center gap-2 text-[#D4AF37] hover:text-[#c9b436] transition-colors"
           >
             Schedule a Demo
-            <ArrowRightIcon className="h-5 w-5" />
+            <ArrowRightIcon />
           </Link>
         </motion.div>
       </div>
