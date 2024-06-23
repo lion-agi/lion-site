@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0 0;
+  --foreground: 255 255 255;
+  --muted: 153 153 153;
+  --accent: 212 175 55; /* Gold */
+  --accent-dark: 133 94 0; /* Dark Gold */
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+    background-image: linear-gradient(135deg, #000000, #1a1a1a, #333333);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .bg-brushed-metal {
+    background-image: 
+      linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(0, 0, 0, 0.1)),
+      repeating-linear-gradient(45deg, 
+        rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px,
+        transparent 1px, transparent 4px
+      );
+    background-size: 100% 100%, 4px 4px;
+  }
+  
+  .text-gradient {
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(to right, #D4AF37, #FFD700);
+  }
+}
