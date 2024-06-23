@@ -1,7 +1,7 @@
 // src/pages/testimonials.tsx
 import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
-import { TestimonialCarousel } from "@/components/testimonials/TestimonialCarousel"
+import TestimonialCarousel from "@/components/testimonials/TestimonialCarousel"
 
 export default function Testimonials() {
   return (

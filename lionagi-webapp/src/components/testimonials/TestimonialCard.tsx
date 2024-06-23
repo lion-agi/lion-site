@@ -15,10 +15,10 @@ export function TestimonialCard({ content, author, role, avatarSrc }: Testimonia
       <CardContent className="p-6 space-y-4">
         <p className="text-lg">{content}</p>
         <div className="flex items-center gap-2">
-          <Avatar>
+          {/* <Avatar>
             <AvatarImage src={avatarSrc} />
             <AvatarFallback>{author.split(' ').map(n => n[0]).join('')}</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
           <div>
             <h4 className="font-semibold">{author}</h4>
             <p className="text-sm text-gray-600">{role}</p>
